@@ -1,0 +1,12 @@
+import org.drools.process.core.datatype.impl.type.StringDataType;
+[
+  // the Notification work item
+  [
+    "name" : "Accelerometer",
+    "parameters" : [
+      "Message" : new StringDataType(),
+    ],
+    "displayName" : "Accelerometer",
+    "icon" : "icons/icon.png"
+  ]
+]
